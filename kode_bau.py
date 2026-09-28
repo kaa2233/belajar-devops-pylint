@@ -1,15 +1,12 @@
-import os, sys, math
+"""Modul untuk demonstrasi perbaikan kualitas kode."""
 
-x = 10
 
-def Bad_Function_Name( A, B, C, D, E, F ):
- global x
- l = 1; O = 0
- if A == True:
-  if B == False:
-   if C == None:
-    try: print(eval("A + B")); res = E[0] + F + l + O
-    except: pass
- else: return None
-            
-Bad_Function_Name(True, False, None, 1, [2], 3)
+def add_numbers(first_number, second_number):
+    """Menjumlahkan dua angka."""
+    result = first_number + second_number
+    print(result)
+    return result
+
+
+if __name__ == "__main__":
+    add_numbers(1, 2)
